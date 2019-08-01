@@ -970,7 +970,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message--sli_highlight_negative, .c-message--ephemeral { background: rgba(0, 0, 0, 0.1); }
 
-.c-message--pinned .c-message__label__icon { color: #bf360c; }
+.c-message--pinned .c-message__label__icon { color: #FF0073; }
 
 .c-message--custom_response .c-message__label__icon, .c-message--sli_highlight .c-message__label__icon { color: #e6e6e6; }
 
@@ -1082,7 +1082,7 @@ ts-message.active .meta, ts-message.message--focus .meta, ts-message:hover .meta
 
 ts-message.active .meta.msg_inline_file_preview_toggler a, ts-message.message--focus .meta.msg_inline_file_preview_toggler a, ts-message:hover .meta.msg_inline_file_preview_toggler a { color: #949494 !important; }
 
-ts-message.is_pinned { background: #ff0073; }
+ts-message.is_pinned { background: rgba(0, 0, 0, 0.15); }
 
 ts-message .timestamp { color: #949494; }
 
