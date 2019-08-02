@@ -168,7 +168,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .infinite_spinner_bg, .infinite_spinner_blue { stroke: #e6e6e6; }
 
-body.loading #team_menu, body.loading #quick_switcher_btn, body.loading #team_menu_overlay, body.loading #col_channels_overlay, body.loading #col_channels { background-color: rgba(255, 0, 115,1) !important; }
+body.loading #team_menu, body.loading #quick_switcher_btn, body.loading #team_menu_overlay, body.loading #col_channels_overlay, body.loading #col_channels { background-image: linear-gradient(to bottom right, rgba(255, 0, 115,1), #A600D9) !important; }
 
 .p-degraded_list__loading { background-color: #222; color: #e6e6e6; }
 
@@ -766,7 +766,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .tab_complete_ui .not_in_channel { color: #949494; }
 
-#team_menu { background: rgba(255, 0, 115,1); border-bottom: 2px solid #363636; color: #e6e6e6; }
+#team_menu { background-image: linear-gradient(to bottom right, rgba(255, 0, 115,1), #A600D9); border-bottom: 2px solid #363636; color: #e6e6e6; }
 
 #team_menu.active, #team_menu:hover { background: rgba(255, 0, 115,1) !important; border-bottom-color: #363636 !important; }
 
@@ -1461,7 +1461,7 @@ ts-message .reply_bar:hover { background: #222; border-color: #000; }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider { background: #222; }
 
-.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider::before { background: rgba(255, 0, 115,1); border-bottom: 1px solid #222; }
+.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider::before { background: #A600D9; border-bottom: 1px solid #222; }
 
 .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list:not(.c-virtual_list--scrollbar):before, .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before { box-shadow: 0 32px #222; }
 
