@@ -88,7 +88,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .p-channel_sidebar .c-custom_scrollbar__thumb_vertical, .p-channel_sidebar .c-scrollbar__bar { background: #545454; }
 
-.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__quickswitcher:hover { color: #ffffff !important; }
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__quickswitcher:hover { color: whitesmoke !important; }
 
 .p-channel_sidebar__close_container:hover { background: #000; }
 
@@ -110,7 +110,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .channels_list_holder ul li.mention a { color: #e6e6e6; }
 
-.channels_list_holder ul li.unread:not(.muted_channel) .primary_action { color: #ffffff !important; }
+.channels_list_holder ul li.unread:not(.muted_channel) .primary_action { color: whitesmoke !important; }
 
 .channels_list_holder ul li.unread .prefix { color: #e6e6e6 !important; opacity: 1; }
 
@@ -168,7 +168,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .infinite_spinner_bg, .infinite_spinner_blue { stroke: #e6e6e6; }
 
-body.loading #team_menu, body.loading #quick_switcher_btn, body.loading #team_menu_overlay, body.loading #col_channels_overlay, body.loading #col_channels { background-image: linear-gradient(to bottom right, rgba(255, 0, 115,1), #A600D9) !important; }
+body.loading #team_menu, body.loading #quick_switcher_btn, body.loading #team_menu_overlay, body.loading #col_channels_overlay, body.loading #col_channels { background-color: rgba(255, 0, 115,1); }
 
 .p-degraded_list__loading { background-color: #222; color: #e6e6e6; }
 
@@ -608,11 +608,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #autocomplete_menu.search_menu li.highlighted .delete_btn:focus, #autocomplete_menu.search_menu li.highlighted .delete_btn:hover, #autocomplete_menu.search_menu.unified li.highlighted .delete_btn:focus, #autocomplete_menu.search_menu.unified li.highlighted .delete_btn:hover { color: #bf360c; }
 
-#autocomplete_menu.search_menu li.highlighted .muted_text, #autocomplete_menu.search_menu.unified li.highlighted .muted_text { color: #ffffff; }
+#autocomplete_menu.search_menu li.highlighted .muted_text, #autocomplete_menu.search_menu.unified li.highlighted .muted_text { color: #949494; }
 
 #autocomplete_menu.search_menu:not(.keyboard_active) li:focus, #autocomplete_menu.search_menu:not(.keyboard_active) li:hover, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:focus, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:hover, #autocomplete_menu.search_menu.unified:not(.keyboard_active) li:focus, #autocomplete_menu.search_menu.unified:not(.keyboard_active) li:hover, #autocomplete_menu.search_menu.unified .results.unified:not(.keyboard_active) li:focus, #autocomplete_menu.search_menu.unified .results.unified:not(.keyboard_active) li:hover { background: transparent; }
 
-#autocomplete_menu.search_menu:not(.keyboard_active) li:focus .muted_text, #autocomplete_menu.search_menu:not(.keyboard_active) li:hover .muted_text, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:focus .muted_text, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:hover .muted_text, #autocomplete_menu.search_menu.unified:not(.keyboard_active) li:focus .muted_text, #autocomplete_menu.search_menu.unified:not(.keyboard_active) li:hover .muted_text, #autocomplete_menu.search_menu.unified .results.unified:not(.keyboard_active) li:focus .muted_text, #autocomplete_menu.search_menu.unified .results.unified:not(.keyboard_active) li:hover .muted_text { color: #ffffff; }
+#autocomplete_menu.search_menu:not(.keyboard_active) li:focus .muted_text, #autocomplete_menu.search_menu:not(.keyboard_active) li:hover .muted_text, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:focus .muted_text, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:hover .muted_text, #autocomplete_menu.search_menu.unified:not(.keyboard_active) li:focus .muted_text, #autocomplete_menu.search_menu.unified:not(.keyboard_active) li:hover .muted_text, #autocomplete_menu.search_menu.unified .results.unified:not(.keyboard_active) li:focus .muted_text, #autocomplete_menu.search_menu.unified .results.unified:not(.keyboard_active) li:hover .muted_text { color: #949494; }
 
 #autocomplete_menu.search_menu:not(.keyboard_active) li:focus .result_item_btn, #autocomplete_menu.search_menu:not(.keyboard_active) li:hover .result_item_btn, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:focus .result_item_btn, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:hover .result_item_btn, #autocomplete_menu.search_menu.unified:not(.keyboard_active) li:focus .result_item_btn, #autocomplete_menu.search_menu.unified:not(.keyboard_active) li:hover .result_item_btn, #autocomplete_menu.search_menu.unified .results.unified:not(.keyboard_active) li:focus .result_item_btn, #autocomplete_menu.search_menu.unified .results.unified:not(.keyboard_active) li:hover .result_item_btn { background: #363636; color: #e6e6e6; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
 
@@ -624,7 +624,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #autocomplete_menu.search_menu:not(.keyboard_active) li:focus .delete_btn:focus, #autocomplete_menu.search_menu:not(.keyboard_active) li:focus .delete_btn:hover, #autocomplete_menu.search_menu:not(.keyboard_active) li:hover .delete_btn:focus, #autocomplete_menu.search_menu:not(.keyboard_active) li:hover .delete_btn:hover, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:focus .delete_btn:focus, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:focus .delete_btn:hover, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:hover .delete_btn:focus, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:hover .delete_btn:hover, #autocomplete_menu.search_menu.unified:not(.keyboard_active) li:focus .delete_btn:focus, #autocomplete_menu.search_menu.unified:not(.keyboard_active) li:focus .delete_btn:hover, #autocomplete_menu.search_menu.unified:not(.keyboard_active) li:hover .delete_btn:focus, #autocomplete_menu.search_menu.unified:not(.keyboard_active) li:hover .delete_btn:hover, #autocomplete_menu.search_menu.unified .results.unified:not(.keyboard_active) li:focus .delete_btn:focus, #autocomplete_menu.search_menu.unified .results.unified:not(.keyboard_active) li:focus .delete_btn:hover, #autocomplete_menu.search_menu.unified .results.unified:not(.keyboard_active) li:hover .delete_btn:focus, #autocomplete_menu.search_menu.unified .results.unified:not(.keyboard_active) li:hover .delete_btn:hover { color: #bf360c; }
 
-#autocomplete_menu.search_menu .muted_text, #autocomplete_menu.search_menu.unified .muted_text { color: #ffffff; }
+#autocomplete_menu.search_menu .muted_text, #autocomplete_menu.search_menu.unified .muted_text { color: #949494; }
 
 #autocomplete_menu.search_menu .time_modifiers::before, #autocomplete_menu.search_menu.unified .time_modifiers::before { background-color: #363636; }
 
@@ -766,9 +766,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .tab_complete_ui .not_in_channel { color: #949494; }
 
-#team_menu { background-image: linear-gradient(to bottom right, rgba(255, 0, 115,1), #A600D9); border-bottom: 2px solid #363636; color: #e6e6e6; }
+#team_menu { background: rgba(255, 0, 115,1); border-bottom: 2px solid #363636; color: #e6e6e6; }
 
-#team_menu.active, #team_menu:hover { background-image: linear-gradient(to bottom right, rgba(255, 0, 115,1), #A600D9) !important; border-bottom-color: #363636 !important; }
+#team_menu.active, #team_menu:hover { background: rgba(255, 0, 115,1) !important; border-bottom-color: #363636 !important; }
 
 #team_menu.active i, #team_menu:hover i { color: #e6e6e6; }
 
@@ -796,7 +796,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #limit_meter_message_body { color: #949494; }
 
-.channel_header { background-image: linear-gradient(rgba(255, 0, 115,1), rgb(169, 0, 221)) !important; box-shadow: inset 1px 0 0 0 rgba(255, 0, 115,1) !important; }
+.channel_header { background: rgba(255, 0, 115,1); box-shadow: inset 1px 0 0 0 #222; }
 
 .channel_header .blue_on_hover:hover { color: #e6e6e6; }
 
@@ -808,11 +808,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .channel_title .channel_name_container .channel_name { color: #e6e6e6; }
 
-.channel_title .channel_name_container .channel_name.muted { color: #ffffff; }
+.channel_title .channel_name_container .channel_name.muted { color: #949494; }
 
 .channel_title .channel_name_container .ts_icon_shared_channel.away, .channel_title .channel_name_container .mpdm_member.away { color: #949494; }
 
-.channel_title .channel_name_container .muted_icon { color: #ffffff; }
+.channel_title .channel_name_container .muted_icon { color: #949494; }
 
 .channel_title .channel_name_container .muted_icon:hover { color: #bf360c; }
 
@@ -850,33 +850,33 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #edit_topic_trigger { color: #949494; }
 
-.p-classic_nav { background-image: linear-gradient(rgba(255, 0, 115,1), rgb(169, 0, 221)); }
+.p-classic_nav { background: #363636; }
 
-.p-classic_nav__model__button { color: #ffffff; }
+.p-classic_nav__model__button { color: #e6e6e6; }
 
-.p-classic_nav__model__title__is_you { color: #ffffff; }
+.p-classic_nav__model__title__is_you { color: #828282; }
 
-.p-classic_nav__model__title__info { color: #ffffff; }
+.p-classic_nav__model__title__info { color: #e6e6e6; }
 
-.p-classic_nav__model__title__info__topic:hover .p-classic_nav__model__title__info__topic__text:before { background-image: linear-gradient(to bottom right, rgba(255, 0, 115,1), #A600D9); color: #ffffff; }
+.p-classic_nav__model__title__info__topic:hover .p-classic_nav__model__title__info__topic__text:before { background: #222; color: #e6e6e6; }
 
-.p-classic_nav__model__title__name--dim { color: #ffffff !important; }
+.p-classic_nav__model__title__name--dim { color: #828282; }
 
-.p-classic_nav__right__button { color: #ffffff !important; }
+.p-classic_nav__right__button { color: #e6e6e6; }
 
 .p-classic_nav__right__search { border-color: #e6e6e6; }
 
-.p-classic_nav__right__search:hover { border-color: #ffffff !important;  }
+.p-classic_nav__right__search:hover { border-color: #828282; }
 
-.p-classic_nav__right__search:hover .p-classic_nav__right__search__icon, .p-classic_nav__right__search:hover .p-classic_nav__right__search__placeholder { color: #ffffff !important;  }
+.p-classic_nav__right__search:hover .p-classic_nav__right__search__icon, .p-classic_nav__right__search:hover .p-classic_nav__right__search__placeholder { color: #828282; }
 
 .p-classic_nav__right__search__icon, .p-classic_nav__right__search__placeholder { color: #e6e6e6; }
 
-.c-message_list__day_divider__label { color: #222; }
+.c-message_list__day_divider__label { color: #949494; }
 
-.c-message_list__day_divider__label__pill { background: rgb(169, 0, 221); position: relative; }
+.c-message_list__day_divider__label__pill { background: #222; position: relative; }
 
-.c-message_list__day_divider__line { border-top: 1px solid rgb(169, 0, 221); }
+.c-message_list__day_divider__line { border-top-color: #363636; }
 
 .day_divider, .mention_day_container_div .day_divider { background: #222; color: #949494; }
 
@@ -970,7 +970,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message--sli_highlight_negative, .c-message--ephemeral { background: rgba(0, 0, 0, 0.1); }
 
-.c-message--pinned .c-message__label__icon { color: #FF0073; }
+.c-message--pinned .c-message__label__icon { color: #bf360c; }
 
 .c-message--custom_response .c-message__label__icon, .c-message--sli_highlight .c-message__label__icon { color: #e6e6e6; }
 
@@ -1461,7 +1461,7 @@ ts-message .reply_bar:hover { background: #222; border-color: #000; }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider { background: #222; }
 
-.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider::before { background: #A600D9; border-bottom: 1px solid #222; }
+.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider::before { background: #222; border-bottom: 1px solid #222; }
 
 .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list:not(.c-virtual_list--scrollbar):before, .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before { box-shadow: 0 32px #222; }
 
@@ -2695,15 +2695,15 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 .current_status_input_for_team_menu .current_status_presets { border-top: 1px solid #000; }
 
-.current_status_input_for_team_menu .current_status_presets .current_status_presets_section_header .header_label { color: rgba(130, 130, 130,0.4); }
+.current_status_input_for_team_menu .current_status_presets .current_status_presets_section_header .header_label { color: #949494; }
 
-.rxn, .c-reaction, .c-reaction_add, .c-member_slug { background: rgb(50, 50, 50); border: 1px solid rgba(255, 0, 115,1) !important; }
+.rxn, .c-reaction, .c-reaction_add, .c-member_slug { background: #363636; border: 1px solid rgba(255, 0, 115,1) !important; }
 
-.rxn.active, .rxn:hover, .c-reaction.active, .c-reaction:hover, .c-reaction_add.active, .c-reaction_add:hover, .c-member_slug.active, .c-member_slug:hover { background: rgb(78, 78, 78); }
+.rxn.active, .rxn:hover, .c-reaction.active, .c-reaction:hover, .c-reaction_add.active, .c-reaction_add:hover, .c-member_slug.active, .c-member_slug:hover { background: #424242; }
 
 .rxn.active .emoji_rxn_count, .rxn:hover .emoji_rxn_count, .c-reaction.active .emoji_rxn_count, .c-reaction:hover .emoji_rxn_count, .c-reaction_add.active .emoji_rxn_count, .c-reaction_add:hover .emoji_rxn_count, .c-member_slug.active .emoji_rxn_count, .c-member_slug:hover .emoji_rxn_count { color: #e6e6e6; }
 
-.rxn.c-reaction--reacted, .c-reaction.c-reaction--reacted, .c-reaction_add.c-reaction--reacted, .c-member_slug.c-reaction--reacted { background-color: rgb(25, 25, 25); border-color: rgba(130, 130, 130,1) !important; box-shadow: inset 0 0 0 1px #ea00ff !important;}
+.rxn.c-reaction--reacted, .c-reaction.c-reaction--reacted, .c-reaction_add.c-reaction--reacted, .c-member_slug.c-reaction--reacted { background-color: rgba(66, 66, 66, 0.08); border-color: rgba(213, 0, 241,1) !important; }
 
 .rxn.c-reaction--reacted .emoji_rxn_count, .rxn.c-reaction--reacted .c-reaction__count, .c-reaction.c-reaction--reacted .emoji_rxn_count, .c-reaction.c-reaction--reacted .c-reaction__count, .c-reaction_add.c-reaction--reacted .emoji_rxn_count, .c-reaction_add.c-reaction--reacted .c-reaction__count, .c-member_slug.c-reaction--reacted .emoji_rxn_count, .c-member_slug.c-reaction--reacted .c-reaction__count { color: #e6e6e6; }
 
@@ -2711,7 +2711,7 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 .rxn.menu_rxn .ts_icon, .c-reaction.menu_rxn .ts_icon, .c-reaction_add.menu_rxn .ts_icon, .c-member_slug.menu_rxn .ts_icon { color: rgba(230, 230, 230, 0.25); }
 
-a.c-member_slug--mention, a.c-member_slug--mention:hover { background-color: #A600D9; color: #363636; }
+a.c-member_slug--mention, a.c-member_slug--mention:hover { background-color: #fff6d1; color: #363636; }
 
 .modal { background-color: #222; border: 0; box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); }
 
