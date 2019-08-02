@@ -88,7 +88,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .p-channel_sidebar .c-custom_scrollbar__thumb_vertical, .p-channel_sidebar .c-scrollbar__bar { background: #545454; }
 
-.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__quickswitcher:hover { color: whitesmoke !important; }
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__quickswitcher:hover { color: #ffffff !important; }
 
 .p-channel_sidebar__close_container:hover { background: #000; }
 
@@ -110,7 +110,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .channels_list_holder ul li.mention a { color: #e6e6e6; }
 
-.channels_list_holder ul li.unread:not(.muted_channel) .primary_action { color: whitesmoke !important; }
+.channels_list_holder ul li.unread:not(.muted_channel) .primary_action { color: #ffffff !important; }
 
 .channels_list_holder ul li.unread .prefix { color: #e6e6e6 !important; opacity: 1; }
 
@@ -608,7 +608,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #autocomplete_menu.search_menu li.highlighted .delete_btn:focus, #autocomplete_menu.search_menu li.highlighted .delete_btn:hover, #autocomplete_menu.search_menu.unified li.highlighted .delete_btn:focus, #autocomplete_menu.search_menu.unified li.highlighted .delete_btn:hover { color: #bf360c; }
 
-#autocomplete_menu.search_menu li.highlighted .muted_text, #autocomplete_menu.search_menu.unified li.highlighted .muted_text { color: #949494; }
+#autocomplete_menu.search_menu li.highlighted .muted_text, #autocomplete_menu.search_menu.unified li.highlighted .muted_text { color: #ffffff; }
 
 #autocomplete_menu.search_menu:not(.keyboard_active) li:focus, #autocomplete_menu.search_menu:not(.keyboard_active) li:hover, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:focus, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:hover, #autocomplete_menu.search_menu.unified:not(.keyboard_active) li:focus, #autocomplete_menu.search_menu.unified:not(.keyboard_active) li:hover, #autocomplete_menu.search_menu.unified .results.unified:not(.keyboard_active) li:focus, #autocomplete_menu.search_menu.unified .results.unified:not(.keyboard_active) li:hover { background: transparent; }
 
