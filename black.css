@@ -810,11 +810,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .channel_title .channel_name_container .channel_name.muted { color: rgb(141, 0, 63); }
 
-.channel_title .channel_name_container .ts_icon_shared_channel.away, .channel_title .channel_name_container .mpdm_member.away { color: #949494; }
+.channel_title .channel_name_container .ts_icon_shared_channel.away, .channel_title .channel_name_container .mpdm_member.away { color: rgb(141, 0, 63); }
 
-.channel_title .channel_name_container .muted_icon { color: #949494; }
+.channel_title .channel_name_container .muted_icon { color: rgb(141, 0, 63); }
 
-.channel_title .channel_name_container .muted_icon:hover { color: #bf360c; }
+.channel_title .channel_name_container .muted_icon:hover { color: #ffffff; }
 
 #im_title.away { color: #949494; }
 
