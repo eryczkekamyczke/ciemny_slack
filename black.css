@@ -846,7 +846,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .presence { color: #949494; }
 
-#edit_topic_inner:not(.unable_to_post)::before { background: #222; border-color: #363636; }
+#edit_topic_inner:not(.unable_to_post)::before { background: rgb(141, 0, 63); border-color: #363636; }
 
 #edit_topic_trigger { color: #949494; }
 
