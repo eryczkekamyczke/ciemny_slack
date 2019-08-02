@@ -866,15 +866,15 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .p-classic_nav__right__search { border-color: #e6e6e6; }
 
-.p-classic_nav__right__search:hover { border-color: #828282; }
+.p-classic_nav__right__search:hover { border-color: #ffffff !important;  }
 
-.p-classic_nav__right__search:hover .p-classic_nav__right__search__icon, .p-classic_nav__right__search:hover .p-classic_nav__right__search__placeholder { color: #828282; }
+.p-classic_nav__right__search:hover .p-classic_nav__right__search__icon, .p-classic_nav__right__search:hover .p-classic_nav__right__search__placeholder { color: #ffffff !important;  }
 
 .p-classic_nav__right__search__icon, .p-classic_nav__right__search__placeholder { color: #e6e6e6; }
 
 .c-message_list__day_divider__label { color: #222; }
 
-.c-message_list__day_divider__label__pill { background: rgba(255, 0, 115,1); position: relative; }
+.c-message_list__day_divider__label__pill { background-image: linear-gradient(to bottom right, rgba(255, 0, 115,1), rgb(169, 0, 221)); position: relative; }
 
 .c-message_list__day_divider__line { border-top-color: #ffff; }
 
