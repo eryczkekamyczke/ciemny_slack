@@ -876,7 +876,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message_list__day_divider__label__pill { background: rgb(169, 0, 221); position: relative; }
 
-.c-message_list__day_divider__line { border-top-color: #ffff; }
+.c-message_list__day_divider__line { border-top: 1px solid rgb(169, 0, 221); }
 
 .day_divider, .mention_day_container_div .day_divider { background: #222; color: #949494; }
 
