@@ -796,7 +796,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #limit_meter_message_body { color: #949494; }
 
-.channel_header { background-image: linear-gradient(to bottom right, rgba(255, 0, 115,1), rgb(169, 0, 221)) !important; box-shadow: inset 1px 0 0 0 rgba(255, 0, 115,1) !important; }
+.channel_header { background-image: linear-gradient(rgba(255, 0, 115,1), rgb(169, 0, 221)) !important; box-shadow: inset 1px 0 0 0 rgba(255, 0, 115,1) !important; }
 
 .channel_header .blue_on_hover:hover { color: #e6e6e6; }
 
@@ -850,7 +850,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #edit_topic_trigger { color: #949494; }
 
-.p-classic_nav { background-image: linear-gradient(to bottom right, rgba(255, 0, 115,1), rgb(169, 0, 221)); }
+.p-classic_nav { background-image: linear-gradient(rgba(255, 0, 115,1), rgb(169, 0, 221)); }
 
 .p-classic_nav__model__button { color: #ffffff; }
 
@@ -874,7 +874,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message_list__day_divider__label { color: #222; }
 
-.c-message_list__day_divider__label__pill { background-image: linear-gradient(to bottom right, rgba(255, 0, 115,1), rgb(169, 0, 221)); position: relative; }
+.c-message_list__day_divider__label__pill { background: rgb(169, 0, 221); position: relative; }
 
 .c-message_list__day_divider__line { border-top-color: #ffff; }
 
