@@ -860,9 +860,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .p-classic_nav__model__title__info__topic:hover .p-classic_nav__model__title__info__topic__text:before { background: rgba(255, 0, 115,1); color: #ffffff; }
 
-.p-classic_nav__model__title__name--dim { color: #ffffff; }
+.p-classic_nav__model__title__name--dim { color: #ffffff !important; }
 
-.p-classic_nav__right__button { color: #e6e6e6; }
+.p-classic_nav__right__button { color: #ffffff !important; }
 
 .p-classic_nav__right__search { border-color: #e6e6e6; }
 
