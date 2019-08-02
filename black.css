@@ -2695,9 +2695,9 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 .current_status_input_for_team_menu .current_status_presets { border-top: 1px solid #000; }
 
-.current_status_input_for_team_menu .current_status_presets .current_status_presets_section_header .header_label { color: #FF0073; }
+.current_status_input_for_team_menu .current_status_presets .current_status_presets_section_header .header_label { color: rgba(255, 0, 115,1); }
 
-.rxn, .c-reaction, .c-reaction_add, .c-member_slug { background: rgb(50, 50, 50); border: 1px solid #FF0073; }
+.rxn, .c-reaction, .c-reaction_add, .c-member_slug { background: rgb(50, 50, 50); border: 1px solid rgba(255, 0, 115,1); }
 
 .rxn.active, .rxn:hover, .c-reaction.active, .c-reaction:hover, .c-reaction_add.active, .c-reaction_add:hover, .c-member_slug.active, .c-member_slug:hover { background: rgb(78, 78, 78); }
 
