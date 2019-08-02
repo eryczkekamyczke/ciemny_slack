@@ -860,7 +860,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .p-classic_nav__model__title__info__topic:hover .p-classic_nav__model__title__info__topic__text:before { background: #222; color: #e6e6e6; }
 
-.p-classic_nav__model__title__name--dim { color: #828282; }
+.p-classic_nav__model__title__name--dim { color: #ffffff; }
 
 .p-classic_nav__right__button { color: #e6e6e6; }
 
