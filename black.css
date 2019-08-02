@@ -858,7 +858,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .p-classic_nav__model__title__info { color: #e6e6e6; }
 
-.p-classic_nav__model__title__info__topic:hover .p-classic_nav__model__title__info__topic__text:before { background: #222; color: #e6e6e6; }
+.p-classic_nav__model__title__info__topic:hover .p-classic_nav__model__title__info__topic__text:before { background: rgba(255, 0, 115,1); color: #e6e6e6; }
 
 .p-classic_nav__model__title__name--dim { color: #ffffff; }
 
@@ -2697,7 +2697,7 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 .current_status_input_for_team_menu .current_status_presets .current_status_presets_section_header .header_label { color: rgba(130, 130, 130,0.4); }
 
-.rxn, .c-reaction, .c-reaction_add, .c-member_slug { background: rgb(50, 50, 50); border: 1px solid rgba(255, 0, 115,1); }
+.rxn, .c-reaction, .c-reaction_add, .c-member_slug { background: rgb(50, 50, 50); border: 1px solid rgba(255, 0, 115,1) !important; }
 
 .rxn.active, .rxn:hover, .c-reaction.active, .c-reaction:hover, .c-reaction_add.active, .c-reaction_add:hover, .c-member_slug.active, .c-member_slug:hover { background: rgb(78, 78, 78); }
 
