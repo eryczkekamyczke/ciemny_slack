@@ -768,7 +768,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #team_menu { background-image: linear-gradient(to bottom right, rgba(255, 0, 115,1), #A600D9); border-bottom: 2px solid #363636; color: #e6e6e6; }
 
-#team_menu.active, #team_menu:hover { background: rgba(255, 0, 115,1) !important; border-bottom-color: #363636 !important; }
+#team_menu.active, #team_menu:hover { background-image: linear-gradient(to bottom right, rgba(255, 0, 115,1), #A600D9) !important; border-bottom-color: #363636 !important; }
 
 #team_menu.active i, #team_menu:hover i { color: #e6e6e6; }
 
@@ -858,7 +858,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .p-classic_nav__model__title__info { color: #ffffff; }
 
-.p-classic_nav__model__title__info__topic:hover .p-classic_nav__model__title__info__topic__text:before { background: rgba(255, 0, 115,1); color: #ffffff; }
+.p-classic_nav__model__title__info__topic:hover .p-classic_nav__model__title__info__topic__text:before { background-image: linear-gradient(to bottom right, rgba(255, 0, 115,1), #A600D9); color: #ffffff; }
 
 .p-classic_nav__model__title__name--dim { color: #ffffff !important; }
 
