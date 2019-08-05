@@ -818,7 +818,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #im_title.away { color: #949494; }
 
-.channel_header_info button { color: #949494; }
+.channel_header_info button { color: rgb(141, 0, 63);; }
 
 .channel_header_icon { color: #e6e6e6; }
 
