@@ -856,7 +856,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .p-classic_nav__model__title__is_you { color: rgb(141, 0, 63); }
 
-.p-classic_nav__model__title__info { color: #ffffff; }
+.p-classic_nav__model__title__info { color: #ffffff !important; }
 
 .p-classic_nav__model__title__info__topic:hover .p-classic_nav__model__title__info__topic__text:before { background: rgba(255, 0, 115,1); color: #e6e6e6; }
 
