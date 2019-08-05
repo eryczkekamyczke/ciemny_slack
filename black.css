@@ -1198,11 +1198,11 @@ ts-mention { background: rgba(130, 130, 130, 0.1) !important; color: #e6e6e6 !im
 
 .channel_archive_messages.card .col:first-child { border-right: 1px solid #545454; }
 
-.star { color: #949494; }
+.star { color: rgb(141, 0, 63); }
 
 .star_item { border-bottom: 1px solid #000; }
 
-.star_item .star_meta { color: #949494; }
+.star_item .star_meta { color: rgb(141, 0, 63); }
 
 .bot_message .message_sender { color: #e6e6e6; }
 
@@ -2151,7 +2151,7 @@ html.no_touch a.filetype_button_web:hover .file_title { color: #e6e6e6; }
 
 .tab_container .star_item .message .actions .btn::after, .tab_container .star_item ts-message .actions .btn::after, .tab_container .file_list_item .actions .btn::after, .tab_container .file_comment_item .actions .btn::after { border-color: #363636; }
 
-.tab_container .star_item ts-message .timestamp { color: #949494; }
+.tab_container .star_item ts-message .timestamp { color: rgb(141, 0, 63); }
 
 .tab_container .file_list_item:focus, .tab_container .file_list_item:hover { background-color: #222; border-color: #363636; }
 
